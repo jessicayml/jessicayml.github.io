@@ -1,0 +1,11 @@
+* {
+	border: 2px solid #ff6600;
+	background-color: #99ff66;
+}
+
+p {
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}

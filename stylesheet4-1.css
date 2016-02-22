@@ -1,0 +1,21 @@
+* {
+border-radius: 1px dashed black;
+}
+
+h6 {
+	font-family: Verdana;
+	line-height: 90%;
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-family: Impact;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-weight: lighter;
+	line-height: 200%;
+	letter-spacing: 3px;
+}

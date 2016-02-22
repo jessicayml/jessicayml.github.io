@@ -1,0 +1,18 @@
+* {
+	border: 2px dotted #ff0000;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	width: 400px;
+	float: left;
+	font-style: italic;
+}
+
+p { 
+	color: #006600;
+	padding: 50px;
+}
+
+div { 
+	color: #006600;
+	padding: 25px;
+}
