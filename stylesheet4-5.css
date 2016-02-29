@@ -13,9 +13,9 @@ p {
 	font-size: 10px;
 }
 
-p {
-	background-color: #66ccff;
-	font-family: Verdana;
+.santa {
+	background-color: yellow;
+	border: 4px dotted #ff33cc;
 	float: right;
 }
 
