@@ -1,25 +1,18 @@
 * {
+	border: 2px dotted #ff0000;
 	font-family: Verdana, sans-serif;
 	font-size: 20px;
-}
-
-header {
-	color: blue;
-	text-align: center;
-	text-transform: capitalize;
-	font-style: italic;
-	width: 600px;
-}
-
-.night {
 	width: 400px;
-	float: right;
+	float: left;
+	font-style: italic;
+}
+
+p { 
 	color: #006600;
+	padding: 50px;
 }
 
-.toys {
-	width: 600px;
-	color: red;
-	display: inline;
+div { 
+	color: #006600;
+	padding: 25px;
 }
-

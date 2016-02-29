@@ -1,21 +1,17 @@
 * {
 border-radius: 1px dashed black;
-background-color: pink;
 }
 
 h6 {
 	font-family: Verdana;
-	font-style: italic;
 	line-height: 90%;
 	letter-spacing: 5px;
-
 }
 
 h2 {
 	font-family: Impact;
 	letter-spacing: -1px;
 	text-transform: uppercase;
-	color: white;
 }
 
 h4 {
