@@ -26,7 +26,7 @@ img {
     width: 100%;
     /*width: 1920px;*/
     height: 100%;
-    background: url("../images/Arctic-Monkeys/Arctic-Monkeys-Resized.jpg") no-repeat center center fixed;
+    background: url("/Images/Arctic-Monkeys/Arctic-Monkeys-Resized.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -63,7 +63,7 @@ img {
     width: 100%;
     /*width: 1920px;*/
     height: 100%;
-    background: url("../images/Peacock-Ridge/peacock-ridge.jpg") no-repeat center center fixed;
+    background: url("/Images/Peacock-Ridge/peacock-ridge.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -98,7 +98,7 @@ img {
     width: 100%;
     /*width: 1920px;*/
     height: 100%;
-    background: url("../images/Be-You/Be-You.jpg") no-repeat center center fixed;
+    background: url("/Images/Be-You/Be-You.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -133,7 +133,7 @@ img {
     width: 100%;
     /*width: 1920px;*/
     height: 100%;
-    background: url("../images/I-Am-Not-Fine/i-am-not-fine.jpg") no-repeat center center fixed;
+    background: url("/Images/I-Am-Not-Fine/i-am-not-fine.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -167,7 +167,7 @@ img {
     width: 100%;
     /*width: 1920px;*/
     height: 100%;
-    background: url("../images/Map/Map.jpg") no-repeat center center fixed;
+    background: url("/Images/Map/Map.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,7 +201,7 @@ img {
     width: 100%;
     /*width: 1920px;*/
     height: 100%;
-    background: url("../images/GreenDot/GreenDot-Brochure.jpg") no-repeat center center fixed;
+    background: url("/Images/GreenDot/GreenDot-Brochure.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -235,7 +235,7 @@ img {
     width: 100%;
     /*width: 1920px;*/
     height: 100%;
-    background: url("../images/The-Sound-of-Architecture/Album-Cover.jpg") no-repeat center center fixed;
+    background: url("/Images/The-Sound-of-Architecture/Album-Cover.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
