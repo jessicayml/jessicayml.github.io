@@ -1,0 +1,114 @@
+html{ box-sizing: border-box;}
+* { margin:0; padding:0; box-sizing: inherit;}
+
+/* Global Styles */
+body {
+    margin:0;
+    padding:0;
+    font-family:  Helvetica, arial, sans-serif,
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+img{
+    max-width: 100%;
+    width:500px;
+}
+
+/* Typography */
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+     color: yellow;
+     text-shadow: 0px 0px 2px #000000;
+
+}
+
+/* Header + Navigation */
+header{
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+ }   
+
+
+div h1{
+    font-size: 15px;
+}
+
+header nav{
+    float: left;
+    font-size: 15px;
+    font-family: helvetica;
+    margin-right: 110px;
+    margin-top:10px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+header nav ul li a{
+    font-size: 30px;
+    margin: auto;
+        width: 60%;
+        padding: 10px;
+        text-align: center;
+        float: center;
+        display: inline;
+}
+
+div.content{
+    font-family: helvetica;
+    font-size: 15px;
+    margin: 90px 350px 0px 580px;
+    position: fixed;
+}    
+
+
+/* Layout */
+.container{
+    max-width: 980px;
+    margin-top: 80px;
+    float: left;
+    margin-left: 20px;
+}
+
+ul.thumbnails {
+    list-style: none;
+}
+
+ul.thumbnails li.thumb{
+    margin: 15px;
+    width: 780px;
+}
+/* Footer */
+footer{
+    max-width: 980px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 780px) {
+    nav{
+        position: fixed;
+        float: left;
+        bottom: 200px;
+    }
+    header nav ul li{
+        margin: 0px 0px 5px;
+        display: block;
+    }
+}

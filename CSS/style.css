@@ -1,0 +1,368 @@
+    /* Global Styles */
+
+html, body{
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/* ArcticMonkeys */
+
+#arcticmonkeys {
+    width: 100%;
+    /*width: 1920px;*/
+    height: 100%;
+    background: url("../images/Arctic-Monkeys/Arctic-Monkeys-Resized.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imageHoverOverlay {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 20, 147, 0.6);
+    text-align: center;
+    font-size: 40px;
+}
+
+#arcticmonkeys:hover .imageHoverOverlay {
+    display: block;
+    position: absolute;
+}
+
+#arcticmonkeys:hover .project-title {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 25%;
+}
+
+
+/* Peacockridge */
+
+#peacockridge {
+    width: 100%;
+    /*width: 1920px;*/
+    height: 100%;
+    background: url("../images/Peacock-Ridge/peacock-ridge.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imageHoverOverlay2 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 251, 35, 0.6);
+    text-align: center;
+    font-size: 40px;
+}
+
+#peacockridge:hover .imageHoverOverlay2 {
+    display: block;
+}
+
+#peacockridge:hover .project-title {
+    display: inline-block;;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 25%;
+}
+
+
+/* beyou */
+
+#beyou {
+    width: 100%;
+    /*width: 1920px;*/
+    height: 100%;
+    background: url("../images/Be-You/Be-You.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imageHoverOverlay3 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 255, 141, 0.6);
+    text-align: center;
+    font-size: 40px;
+}
+
+#beyou:hover .imageHoverOverlay3 {
+    display: block;
+}
+
+#beyou:hover .project-title {
+    display: inline-block;;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 25%;
+}
+
+
+/* Not Fine */
+
+#notfine {
+    width: 100%;
+    /*width: 1920px;*/
+    height: 100%;
+    background: url("../images/I-Am-Not-Fine/i-am-not-fine.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imageHoverOverlay4 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 149, 255, 0.6);
+    text-align: center;
+    font-size: 40px;
+}
+
+#notfine:hover .imageHoverOverlay4 {
+    display: block;
+}
+
+#notfine:hover .project-title {
+    display: inline-block;;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 25%;
+}
+
+/* LOST */
+
+#LOST {
+    width: 100%;
+    /*width: 1920px;*/
+    height: 100%;
+    background: url("../images/Map/Map.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imageHoverOverlay5 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 157, 75, 0.6);
+    text-align: center;
+    font-size: 40px;
+}
+
+#LOST:hover .imageHoverOverlay5 {
+    display: block;
+}
+
+#LOST:hover .project-title {
+    display: inline-block;;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 25%;
+}
+
+/* GreenDot */
+
+#GreenDot {
+    width: 100%;
+    /*width: 1920px;*/
+    height: 100%;
+    background: url("../images/GreenDot/GreenDot-Brochure.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imageHoverOverlay6 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(201, 210, 211, 0.6);
+    text-align: center;
+    font-size: 40px;
+}
+
+#GreenDot:hover .imageHoverOverlay6 {
+    display: block;
+}
+
+#GreenDot:hover .project-title {
+    display: inline-block;;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 25%;
+}
+
+/* Architecture */
+
+#Architecture {
+    width: 100%;
+    /*width: 1920px;*/
+    height: 100%;
+    background: url("../images/The-Sound-of-Architecture/Album-Cover.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.imageHoverOverlay7 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(206, 162, 250, 0.6);
+    text-align: center;
+    font-size: 40px;
+}
+
+#Architecture:hover .imageHoverOverlay7 {
+    display: block;
+}
+
+#Architecture:hover .project-title {
+    display: inline-block;;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 25%;
+}
+
+/* Typography */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-shadow: 0px 0px 2px #000000;
+
+}
+
+
+/* Header + Navigation */
+
+header {
+    font-size: 25px;
+    width: 100%;
+    /*margin: 20px;*/
+    top: 30px;
+    display: inline;
+    position: fixed;
+    text-align: center;
+    z-index: 100;
+}
+
+header h1 {
+    border: 3px solid black;
+    padding: 50px;
+    display: inline-block;
+    height: 30px;
+    width: 260px;
+    margin-top: 10%;
+}
+
+header nav {
+    padding: 0;
+    list-style: none;
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    position: fixed;
+}
+
+header nav ul {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-size: 40px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+header nav ul li a {
+    font-size: 2em;
+    text-align: center;
+}
+
+li {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    float: center;
+    display: inline;
+}
+
+.nav-bar {
+    text-align: center;
+    position: fixed;
+    font-size: 30px;
+    z-index: 9999999;
+}
+
+.nav-bar li {
+    display: inline;
+}
+
+
+/* Layout */
+
+.container {
+    max-width: 100%;
+    margin: 60px auto;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 780px) {
+    nav {
+        position: fixed;
+        float: left;
+        bottom: 20px;
+    }
+    header nav ul li {
+        margin: 10px 10px 5px;
+        display: block;
+        text-align: center;
+    }
